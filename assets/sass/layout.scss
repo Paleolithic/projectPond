@@ -12,6 +12,7 @@
 // IMPORTS
 @import "vars"; // import _global_variables.scss
 @import "mixins"; // import _mixins.scss
+@import "compass/css3";
 
 /* SITE STYLES
  * ------------------------------------------------ */
@@ -22,6 +23,33 @@
  * ------------------------------------------------ */
 /* Add page styles here */
 /* For example: .page-home { background: rgba(0, 0, 0, 0.4); } */
+html, body, main{
+	height: 100%;
+}
+
+main{
+	background: linear-gradient(rgba(5, 31, 46, 0.65), rgba(5, 31, 46, 0.65)), url('../images/workspace.jpg') no-repeat center center fixed; 
+	@include background-size(cover);
+
+	*{
+		color: white;
+	}
+	.container{
+		top: 25%;
+	}
+
+	input[type="text"]{
+		display: inline-block;
+	}
+
+	img{
+		width: 21px;
+		height: 21px;
+		position: relative;
+		top: 5px;
+		left: 7px;
+	}
+}
 
 /* MEDIA QUERIES
  * ------------------------------------------------ */

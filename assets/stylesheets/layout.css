@@ -16,6 +16,40 @@
  * ------------------------------------------------ */
 /* Add page styles here */
 /* For example: .page-home { background: rgba(0, 0, 0, 0.4); } */
+/* line 26, ../sass/layout.scss */
+html, body, main {
+  height: 100%;
+}
+
+/* line 30, ../sass/layout.scss */
+main {
+  background: linear-gradient(rgba(5, 31, 46, 0.65), rgba(5, 31, 46, 0.65)), url("../images/workspace.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 34, ../sass/layout.scss */
+main * {
+  color: white;
+}
+/* line 37, ../sass/layout.scss */
+main .container {
+  top: 25%;
+}
+/* line 41, ../sass/layout.scss */
+main input[type="text"] {
+  display: inline-block;
+}
+/* line 45, ../sass/layout.scss */
+main img {
+  width: 21px;
+  height: 21px;
+  position: relative;
+  top: 5px;
+  left: 7px;
+}
+
 /* MEDIA QUERIES
  * ------------------------------------------------ */
 /* Otherwise known as custom responsive code! Write it here! */
