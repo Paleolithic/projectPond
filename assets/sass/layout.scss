@@ -66,6 +66,11 @@ main{
 /* Tablet Portrait size to standard #{strip-units($baseWidthMQ)} (devices and browsers) */
 @media only screen and (min-width: $tabletWidth) and (max-width: $baseWidthMQ - 1) {
 	/* add code here */
+	main{
+		.container{
+			top: 15%;
+		}
+	}
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -76,9 +81,19 @@ main{
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: $tabletWidth - 1) {
 	/* add code here */
+	main{
+		.container{
+			top: 15%;
+		}
+	}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
 	/* add code here */
+	main{
+		.container{
+			top: 5%;
+		}
+	}
 }
