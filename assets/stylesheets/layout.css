@@ -21,33 +21,64 @@ html, body, main {
   height: 100%;
 }
 
-/* line 30, ../sass/layout.scss */
+/* line 31, ../sass/layout.scss */
 main {
-  background: linear-gradient(rgba(5, 31, 46, 0.65), rgba(5, 31, 46, 0.65)), url("../images/workspace.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(5, 31, 46, 0.75), rgba(5, 31, 46, 0.75)), url("../images/workspace.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  text-align: center;
 }
-/* line 34, ../sass/layout.scss */
+/* line 35, ../sass/layout.scss */
 main * {
   color: white;
 }
-/* line 37, ../sass/layout.scss */
+/* line 38, ../sass/layout.scss */
 main .container {
-  top: 25%;
+  top: 7%;
 }
-/* line 41, ../sass/layout.scss */
+/* line 42, ../sass/layout.scss */
+main hr {
+  margin: 21px auto 21px auto;
+  border: 0;
+  width: 40px;
+  border-top: 1px solid white;
+  text-align: center;
+}
+/* line 50, ../sass/layout.scss */
 main input[type="text"] {
+  text-align: center;
   display: inline-block;
 }
-/* line 45, ../sass/layout.scss */
+/* line 55, ../sass/layout.scss */
+main h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 77px;
+  line-height: 81px;
+}
+/* line 61, ../sass/layout.scss */
+main h3 {
+  text-align: center;
+  font-weight: 300;
+}
+/* line 65, ../sass/layout.scss */
+main h3 span {
+  font-weight: 400;
+}
+/* line 69, ../sass/layout.scss */
 main img {
   width: 21px;
   height: 21px;
   position: relative;
   top: 5px;
   left: 7px;
+}
+/* line 77, ../sass/layout.scss */
+main h6 {
+  text-align: left;
+  padding: 21px 0;
 }
 
 /* MEDIA QUERIES
@@ -63,7 +94,7 @@ main img {
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   /* add code here */
-  /* line 70, ../sass/layout.scss */
+  /* line 99, ../sass/layout.scss */
   main .container {
     top: 15%;
   }
@@ -75,7 +106,7 @@ main img {
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   /* add code here */
-  /* line 85, ../sass/layout.scss */
+  /* line 114, ../sass/layout.scss */
   main .container {
     top: 15%;
   }
@@ -83,7 +114,7 @@ main img {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
   /* add code here */
-  /* line 95, ../sass/layout.scss */
+  /* line 124, ../sass/layout.scss */
   main .container {
     top: 5%;
   }
